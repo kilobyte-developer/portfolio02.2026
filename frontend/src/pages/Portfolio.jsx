@@ -49,12 +49,15 @@ const Portfolio = () => {
           <Skills />
         </div>
         <div ref={(el) => (sectionsRef.current[3] = el)} className="fade-in-section">
-          <Projects />
+          <TradingSystems />
         </div>
         <div ref={(el) => (sectionsRef.current[4] = el)} className="fade-in-section">
-          <Vision />
+          <Projects />
         </div>
         <div ref={(el) => (sectionsRef.current[5] = el)} className="fade-in-section">
+          <Vision />
+        </div>
+        <div ref={(el) => (sectionsRef.current[6] = el)} className="fade-in-section">
           <Contact />
         </div>
       </div>

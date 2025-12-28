@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import TradingSystems from '../components/TradingSystems';
 import Projects from '../components/Projects';
 import Vision from '../components/Vision';
 import Contact from '../components/Contact';

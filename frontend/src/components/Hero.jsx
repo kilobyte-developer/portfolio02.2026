@@ -54,13 +54,13 @@ const Hero = () => {
           </a>
         </div>
         <div className="hero-social">
-          <a href="mailto:atharva.funde@example.com" className="social-link" aria-label="Email">
+          <a href="mailto:atharvafunde26@gmail.com" className="social-link" aria-label="Email">
             <Mail size={20} />
           </a>
-          <a href="https://linkedin.com/in/atharvafunde" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/atharva-funde-05541a249/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
             <Linkedin size={20} />
           </a>
-          <a href="https://github.com/atharvafunde" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
+          <a href="https://github.com/kilobyte-developer" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
             <Github size={20} />
           </a>
         </div>

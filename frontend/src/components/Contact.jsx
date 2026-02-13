@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, Linkedin, Github, Send, Twitter } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {

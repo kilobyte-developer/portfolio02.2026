@@ -38,31 +38,40 @@ const Contact = () => {
               Reach out via email or connect on professional networks.
             </p>
             <div className="contact-links">
-              <a href="mailto:atharva.funde@example.com" className="contact-link-item">
+              <a href="mailto:atharvafunde26@gmail.com" className="contact-link-item">
                 <div className="link-icon">
                   <Mail size={20} />
                 </div>
                 <div className="link-content">
                   <div className="link-label">Email</div>
-                  <div className="link-value">atharva.funde@example.com</div>
+                  <div className="link-value">atharvafunde26@gmail.com</div>
                 </div>
               </a>
-              <a href="https://linkedin.com/in/atharvafunde" target="_blank" rel="noopener noreferrer" className="contact-link-item">
+              <a href="https://www.linkedin.com/in/atharva-funde-05541a249/" target="_blank" rel="noopener noreferrer" className="contact-link-item">
                 <div className="link-icon">
                   <Linkedin size={20} />
                 </div>
                 <div className="link-content">
                   <div className="link-label">LinkedIn</div>
-                  <div className="link-value">linkedin.com/in/atharvafunde</div>
+                  <div className="link-value">linkedin.com/in/atharva-funde-05541a249</div>
                 </div>
               </a>
-              <a href="https://github.com/atharvafunde" target="_blank" rel="noopener noreferrer" className="contact-link-item">
+              <a href="https://github.com/kilobyte-developer" target="_blank" rel="noopener noreferrer" className="contact-link-item">
                 <div className="link-icon">
                   <Github size={20} />
                 </div>
                 <div className="link-content">
                   <div className="link-label">GitHub</div>
-                  <div className="link-value">github.com/atharvafunde</div>
+                  <div className="link-value">github.com/kilobyte-developer</div>
+                </div>
+              </a>
+              <a href="https://x.com/atharva_funde62" target="_blank" rel="noopener noreferrer" className="contact-link-item">
+                <div className="link-icon">
+                  <Twitter size={20} />
+                </div>
+                <div className="link-content">
+                  <div className="link-label">Twitter / X</div>
+                  <div className="link-value">@atharva_funde62</div>
                 </div>
               </a>
             </div>

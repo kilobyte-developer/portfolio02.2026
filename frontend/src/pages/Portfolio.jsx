@@ -13,6 +13,8 @@ const Portfolio = () => {
   const sectionsRef = useRef([]);
 
   useEffect(() => {
+    const sections = sectionsRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -21,15 +23,15 @@ const Portfolio = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.2 }
     );
 
-    sectionsRef.current.forEach((section) => {
+    sections.forEach((section) => {
       if (section) observer.observe(section);
     });
 
     return () => {
-      sectionsRef.current.forEach((section) => {
+      sections.forEach((section) => {
         if (section) observer.unobserve(section);
       });
     };
